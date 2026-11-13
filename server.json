@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Nero-Engine/site-pack",
+  "title": "Site Pack",
+  "description": "Permitted development, building regs, party wall dates, CDM and materials for UK builders' AI",
+  "version": "1.1.0",
+  "repository": {
+    "url": "https://github.com/Nero-Engine/site-pack-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://site-pack.nerolabs.workers.dev/docs",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://site-pack.nerolabs.workers.dev/mcp"
+    }
+  ]
+}
